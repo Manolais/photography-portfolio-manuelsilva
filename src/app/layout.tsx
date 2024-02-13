@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/next-script-for-ga */
 import "./globals.css";
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
@@ -22,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <script
           defer
@@ -34,7 +35,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <Layout>
           {children}
-          <FixedPlugin />
+          {/* <FixedPlugin /> */}
         </Layout>
       </body>
     </html>

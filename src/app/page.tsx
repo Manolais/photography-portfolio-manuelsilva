@@ -10,18 +10,21 @@ import Resume from "./resume";
 import Testimonial from "./testimonial";
 import PopularClients from "./popular-clients";
 import ContactForm from "./contact-form";
+import FeaturedImageGallery from "./featured-galery";
+import MasonryGridGallery from "./mansory-grid-galery";
 
 export default function Portfolio() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Clients />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Testimonial />
-      <PopularClients />
+      <MasonryGridGallery />
+      {/* <Clients /> */}
+      {/* <Skills /> */}
+      {/* <Projects /> */}
+      {/* <Resume /> */}
+      {/* <Testimonial /> */}
+      {/* <PopularClients /> */}
       <ContactForm />
       <Footer />
     </>
