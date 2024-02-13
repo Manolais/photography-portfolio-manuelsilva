@@ -12,12 +12,6 @@ export default function Portfolio() {
       <Navbar />
       <Hero />
       <MasonryGridGallery />
-      {/* <Clients /> */}
-      {/* <Skills /> */}
-      {/* <Projects /> */}
-      {/* <Resume /> */}
-      {/* <Testimonial /> */}
-      {/* <PopularClients /> */}
       <ContactForm />
       <Footer />
     </>

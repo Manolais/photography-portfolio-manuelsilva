@@ -63,23 +63,6 @@ export function ContactForm() {
                   </Typography>
                 </Link>
               </div>
-              {/* <div className="flex mb-10 gap-5">
-                <TicketIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
-                  Open Support Ticket
-                </Typography>
-              </div> */}
-              {/* <div className="flex items-center gap-5">
-                <IconButton variant="text" color="white">
-                  
-                </IconButton>
-                <IconButton variant="text" color="white">
-                  <FontAwesomeIcon icon={faFacebook} className="text-2xl"/>
-                </IconButton>
-                <IconButton variant="text" color="white">
-                  <FontAwesomeIcon icon={faGithub} className="text-2xl"/>
-                </IconButton>
-              </div> */}
             </div>
             <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
               <form action="#">
@@ -118,24 +101,6 @@ export function ContactForm() {
                     className: "!min-w-full mb-8",
                   }}
                 />
-                {/* <Typography
-                  variant="lead"
-                  className="!text-blue-gray-500 text-sm mb-2"
-                >
-                  What are you interested on?
-                </Typography>
-                <div className="-ml-3 mb-14 ">
-                  <Radio
-                    color="gray"
-                    name="type"
-                    label="Design"
-                    defaultChecked
-                  />
-                  <Radio color="gray" name="type" label="Development" />
-                  <Radio color="gray" name="type" label="Support" />
-                  <Radio color="gray" name="type" label="Other" />
-                </div> */}
-                {/* @ts-ignore */}
                 <Textarea
                   color="gray"
                   size="lg"
