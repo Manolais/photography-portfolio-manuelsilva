@@ -6,7 +6,17 @@ const config: Config = withMT({
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      gridTemplateColumns:{
+        '55/45': '55% 45%',
+        '45/55': '45% 55%'
+      },
+      spacing: {
+        '30vw': '30vw',
+      },
+    }
+  },
   plugins: [],
 });
 

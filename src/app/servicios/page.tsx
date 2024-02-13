@@ -1,5 +1,6 @@
 import { Navbar, Footer } from "@/components";
 import Resume from "./modalidad";
+import ServiciosGrid from "./servicios-grid";
 
 //sections
 export default function Page() {
@@ -7,6 +8,7 @@ export default function Page() {
     <>
       <Navbar />
       <Resume />
+      <ServiciosGrid />
       <Footer />
     </>
   )

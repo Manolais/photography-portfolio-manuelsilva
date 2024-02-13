@@ -40,7 +40,7 @@ const RESUME_ITEMS = [
 export function Resume() {
   return (
     <section className="px-8 py-24">
-      <div className="container mx-auto grid w-full grid-cols-1  gap-16 lg:grid-cols-2">
+      <div className="container mx-auto grid w-full grid-cols-1 gap-16 lg:grid-cols-2">
         <div className="col-span-1">
           <Typography variant="h2" color="blue-gray">
             Mi modalidad de trabajo

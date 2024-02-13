@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.imgWrapper {
+    display: block;
+    height: 25vw;
+    overflow: hidden;
+    position: relative;
+}
+.imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 960px) {
+    .imgWrapper {
+        display: block;
+        height: 40vh;
+        overflow: hidden;
+        position: relative;
+    }
+}
