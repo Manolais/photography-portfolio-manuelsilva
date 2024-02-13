@@ -1,5 +1,5 @@
 import { Navbar, Footer } from "@/components";
-import Resume from "./resume";
+import Resume from "./modalidad";
 
 //sections
 export default function Page() {
