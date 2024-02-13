@@ -76,12 +76,12 @@ export function Navbar() {
   return (
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
-        <Link href='/' className="">
+        <Link href='/' className="basis-1/3">
           <Typography color="blue-gray" className="text-lg font-bold">
             {TITLE}
           </Typography>
         </Link>
-        <ul className="hidden items-center gap-8 lg:flex ">
+        <ul className="hidden items-center gap-8 lg:flex justify-evenly basis-1/3">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>
               <Icon className="h-5 w-5" />
@@ -89,8 +89,8 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex ">
-          Empty to aling items
+        <div className="hidden items-center gap-2 lg:flex basis-1/3">
+          {/* Empty to align items */}
         </div>
         <IconButton
           variant="text"

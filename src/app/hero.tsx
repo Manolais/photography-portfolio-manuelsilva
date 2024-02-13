@@ -13,17 +13,17 @@ function Hero() {
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
           >
-            Welcome to my Web <br /> Development Portofolio!
+            Bienvenido a mi <br /> Portafolio de Fotografía!
           </Typography>
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Lily Smith, a passionate web developer based in USA. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            Me llamo Manuel Silva y soy un fotógrafo argentino, acá podrás
+            ver una parte de mi trabajo y mi trayecto en el sector,
+            donde podés ver mi parte creativa o contratar mi servicio.
           </Typography>
-          <div className="grid">
+          {/* <div className="grid">
             <Typography
               variant="small"
               className="mb-2 text-gray-900 font-medium"
@@ -31,7 +31,6 @@ function Hero() {
               Your email
             </Typography>
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-              {/* @ts-ignore */}
               <Input color="gray" label="Enter your email" size="lg" />
               <Button color="gray" className="w-full px-4 md:w-[12rem]">
                 require offer
@@ -43,14 +42,14 @@ function Hero() {
             <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
             </a>
-          </Typography>
+          </Typography> */}
         </div>
         <Image
           width={1024}
           height={1024}
           alt="team work"
-          src="/image/image-7.svg"
-          className="h-[36rem] w-full rounded-xl object-cover"
+          src="https://img.playbook.com/fWfxqY3r3IYyJ8ewpuBidCcWqQ1Ts91KMvzdckoTCpU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RkYmRhYjM0/LTg3MjctNDBlNi1i/NGVjLWNiNWY2Njdj/MzAwMg"
+          className="max-h-full max-w-auto rounded-xl object-cover"
         />
       </div>
     </header>

@@ -56,7 +56,7 @@ export function ContactForm() {
                 </Typography>
               </div>
               <div className="flex gap-5">
-                <Link href="https://www.instagram.com/manus.ph/" className="flex gap-5">
+                <Link target="_blank" href="https://www.instagram.com/manus.ph/" className="flex gap-5">
                   <FontAwesomeIcon icon={faSquareInstagram} className="h-6 w-6 text-2xl text-white"/>
                   <Typography variant="h6" color="white" className="mb-2">
                     @manus.ph
