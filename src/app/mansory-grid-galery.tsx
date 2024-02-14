@@ -287,7 +287,7 @@ export default function MasonryGridGallery() {
   ];
 
   return (
-    <>
+    <div className="pr-5 pl-5">
       <section className="text-center">
         <Typography
           variant="h1"
@@ -327,6 +327,6 @@ export default function MasonryGridGallery() {
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }
