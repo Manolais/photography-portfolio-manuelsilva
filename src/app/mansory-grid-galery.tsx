@@ -320,6 +320,9 @@ export default function MasonryGridGallery() {
             <img
               data-tag={["Hola", "Mundo"]}
               key={index}
+              loading="lazy"
+              width={360}
+              height={450}
               className="h-auto max-w-full rounded-lg"
               src={imageLink}
               alt={alt || ""}
