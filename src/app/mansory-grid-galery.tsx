@@ -6,6 +6,11 @@ export default function MasonryGridGallery() {
   const images = [
     {
       imageLink:
+        "https://img.playbook.com/V2x_RLjd-AN4oYErCzSNLrK_Ba6WQ6Tw41Wxlb7N5kE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RlYzc4NTk2/LWRjMTgtNGFlMi1h/MmE5LTY4NWMzNjhm/ZWJmZA",
+      alt: "Cetedrál vista desde abajo"
+    },
+    {
+      imageLink:
         "https://img.playbook.com/KT1me7PWFVcQDRAo-v2c0PDG6MboEw1-t6z7GOQiQLE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2ViNjk1ZmY5/LWRlYTUtNGJmYy1i/MTMwLTRmMTA1MWZj/OWFmOA",
       alt: "Repartidor Pedidos Ya en moto"
     },
