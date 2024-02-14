@@ -1,8 +1,6 @@
 import { Typography, Button } from "@material-tailwind/react";
 
-const LINKS = ["Home"
-// , "About Us", "Blog", "Service"
-];
+// const LINKS = ["Home", "About Us", "Blog", "Service"];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
@@ -21,7 +19,7 @@ export function Footer() {
             </a>
             . */}
           </Typography>
-          <ul className="flex gap-8 items-center">
+          {/* <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
               <li key={link}>
                 <Typography
@@ -34,8 +32,7 @@ export function Footer() {
                 </Typography>
               </li>
             ))}
-            {/* <Button color="gray">subscribe</Button> */}
-          </ul>
+          </ul> */}
         </div>
       </div>
     </footer>
