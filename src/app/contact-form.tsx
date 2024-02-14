@@ -65,7 +65,7 @@ export function ContactForm() {
               </div>
             </div>
             <div className="w-full mt-8 md:mt-0 md:px-10 col-span-4 h-full p-5">
-              <form action="#">
+              <form action="mailto:bsasmanuelsilva@gmail.com" method="post" encType="text/plain">
                 <div className="mb-8 grid gap-4 lg:grid-cols-2">
                   <Input
                     color="gray"
@@ -112,7 +112,7 @@ export function ContactForm() {
                   }}
                 />
                 <div className="w-full flex justify-end">
-                  <Button className="w-full md:w-fit" color="gray" size="md">
+                  <Button className="w-full md:w-fit" color="gray" size="md" type="submit">
                     Enviar Mensaje
                   </Button>
                 </div>

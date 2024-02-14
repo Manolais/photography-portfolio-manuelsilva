@@ -6,8 +6,13 @@ export default function MasonryGridGallery() {
   const images = [
     {
       imageLink:
+        "https://img.playbook.com/KT1me7PWFVcQDRAo-v2c0PDG6MboEw1-t6z7GOQiQLE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2ViNjk1ZmY5/LWRlYTUtNGJmYy1i/MTMwLTRmMTA1MWZj/OWFmOA",
+      alt: "Repartidor Pedidos Ya en moto"
+    },
+    {
+      imageLink:
         "https://img.playbook.com/V90zfvzhRRlAGw5hy9FfmsrXKNbW14wPNhVylFZKFZI/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzZmYWY3YTRm/LThjMTUtNGRmYy05/ZjM1LWNkMGI4YWFj/NWI0Mw",
-      alt: ""
+      alt: "Mujer prendiedo un cigarrillo"
     },
     {
       imageLink:
@@ -18,16 +23,6 @@ export default function MasonryGridGallery() {
       imageLink:
         "https://img.playbook.com/CNLcwfNfVFVqtkncznivAYrVA3DLTD7R4ixVq3Uds_U/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzAwYTdlZDA1/LWQyZTUtNGRiZC1h/NjkwLTY5OTc3MzU2/YTYyYQ",
       alt: "Pez Koi en Buenos Aires"
-    },
-    {
-      imageLink:
-        "https://img.playbook.com/KT1me7PWFVcQDRAo-v2c0PDG6MboEw1-t6z7GOQiQLE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2ViNjk1ZmY5/LWRlYTUtNGJmYy1i/MTMwLTRmMTA1MWZj/OWFmOA",
-      alt: "Repartidor Pedidos Ya en moto"
-    },
-    {
-      imageLink:
-        "https://img.playbook.com/fWfxqY3r3IYyJ8ewpuBidCcWqQ1Ts91KMvzdckoTCpU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RkYmRhYjM0/LTg3MjctNDBlNi1i/NGVjLWNiNWY2Njdj/MzAwMg",
-      alt: "Catedral la plata, ventanal"
     },
     {
       imageLink:
