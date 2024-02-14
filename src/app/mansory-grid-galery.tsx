@@ -314,7 +314,7 @@ export default function MasonryGridGallery() {
           </div>
         </form>
       </section> */}
-      <section className="container mx-auto overflow-y-scroll h-5/6 lg:max-h-screen">
+      <section className="container mx-auto overflow-y-scroll lg:max-h-screen">
         <div className="columns-1 gap-4 sm:columns-2 sm:gap-4 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
           {images.map(({ imageLink, alt }, index) => (
             <img
