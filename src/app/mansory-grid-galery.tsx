@@ -6,6 +6,11 @@ export default function MasonryGridGallery() {
   const images = [
     {
       imageLink:
+        "https://img.playbook.com/kMn7O4hSlfLuZ6nCC0QEwlbBB1d3K7Jv5VvY6CvE3f4/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2MzNjRlZjky/LWNiOWQtNGY4Mi1i/OWFlLTYwZDk2NTlk/OGUxZg",
+      alt: "Hombre con gorra de nike jugando al pool"
+    },
+    {
+      imageLink:
         "https://img.playbook.com/V2x_RLjd-AN4oYErCzSNLrK_Ba6WQ6Tw41Wxlb7N5kE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RlYzc4NTk2/LWRjMTgtNGFlMi1h/MmE5LTY4NWMzNjhm/ZWJmZA",
       alt: "Cetedrál vista desde abajo"
     },
