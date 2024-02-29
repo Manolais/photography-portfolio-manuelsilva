@@ -46,7 +46,7 @@ export function ContactForm() {
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2">
-                  +54 9 (221) 364-6990
+                  +54 9 (221) 419-2969
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">
