@@ -28,7 +28,7 @@ function Hero() {
           width={1024}
           height={1024}
           alt="team work"
-          src="https://img.playbook.com/fWfxqY3r3IYyJ8ewpuBidCcWqQ1Ts91KMvzdckoTCpU/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RkYmRhYjM0/LTg3MjctNDBlNi1i/NGVjLWNiNWY2Njdj/MzAwMg"
+          src="https://img.playbook.com/OCdIC1c9zxKprLPHobvVPt0TG_V5Ieobg1ARMCa9quE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzNiMGJmNTMx/LWYxMmMtNGM2MC05/ZmI0LWQzZmE4ODhl/MzVlYg"
           className="max-h-full max-w-auto rounded-xl object-cover"
         />
       </div>
